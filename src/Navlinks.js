@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navlinks.css';
-
+import { Link } from 'react-router-dom';
 import ViewMore from "./ViewMore";
 
     
@@ -13,32 +13,32 @@ function Navlinks(){
             
             <div className="navlinks__outer">
                 <div className="navlinks__inner">
-                    <a href='/'>
+                    <Link to='/Home'>
                         Home
-                    </a>
+                    </Link>
                     <button className='V_button' pathname="today deals" onClick={() => {window.location.href="https://amzn.to/3Hjq6GZ"}} target="_blank" >
                         Todays Deals
                     </button>
-                    <a href='/MObiles'>
+                    <Link  to='/MObiles'>
                         Mobiles
-                    </a>
-                    <a href='/Laptops'>
+                    </Link>
+                    <Link to='/Laptops'>
                        Laptops
-                    </a>
-                    <a href='/Televisions'>
+                    </Link>
+                    <Link to ='/Televisions'>
                        Televisions
-                    </a>
-                    <a href='/Watches'>
+                    </Link>
+                    <Link to='/Watches'>
                         Watches
-                    </a>
+                    </Link>
                    
                     <button className='V_button' pathname="popular sales" onClick={() => {window.location.href="https://amzn.to/34dYqWq"}} target="_blank" >
                        Popular Sales
                     </button>
                     
-                    <a href="/Gifts" >
+                    <Link to="/Gifts" >
                        Gifts
-                    </a>
+                    </Link>
                     
                    <ViewMore/>
                     
