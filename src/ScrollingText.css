@@ -1,0 +1,35 @@
+.scrolling__text{
+    font-size: 23px;
+    color: red;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    
+}
+.scrolling__text1{
+    font-size: 19PX;
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.scrolling__text_f{
+    font-size: 14px;
+    font-style: italic;
+    color:white;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.scr1{
+    margin-left:20px;
+    margin-right: 10px;
+
+}
+.scr2{
+    margin-left:60px;
+    margin-right: 40px;
+
+}

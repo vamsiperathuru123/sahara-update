@@ -1,0 +1,33 @@
+
+.Laptops{
+    background-color: black;
+    overflow:wrap;
+    
+    align-items: center;
+    z-index: 100;
+    
+    
+}
+.title_lap{
+    color:rgb(230, 63, 22);
+    
+    
+    padding-top: 10px;
+    
+}
+.table_lap{
+    padding-top: 20px;
+    overflow-x:scroll;
+    z-index: 1;
+
+    
+    
+
+
+}
+.lt{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+    
+}

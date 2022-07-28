@@ -1,0 +1,14 @@
+.more_btn_dr{
+    color:white;
+    background-color:hsl(12, 91%, 55%);
+    border-color:black;
+    border-radius: 10px;
+    width: 120px;
+    margin: 8px;
+    height: 240px;
+}
+.card_dr{
+    width: 400px;
+    margin-left:25px;
+    margin-right:25px;
+}

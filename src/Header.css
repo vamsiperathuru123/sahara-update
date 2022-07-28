@@ -1,0 +1,113 @@
+.header{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+    
+    
+}
+
+.header__logo{
+    width: 120px;
+    max-width: 130px;
+    margin: 0 10px;
+    margin-top: 0px;
+    object-fit: contain;
+    
+}
+.header__search{
+    display: flex;
+    flex: 1;
+    border: black;
+    color: black;
+}
+.header__searchInput{
+   height: 5px;
+    padding: 10px;
+    border: black;
+    width: 80%;
+    border-radius: 10px;
+    margin-top:3px;
+    
+
+    
+    
+
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color:red;
+    border-radius: 10px;
+    border:red;
+    margin: auto;
+
+}
+.header__option{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__link{
+    color: white;
+    text-decoration:none;
+}
+.header__optionLineOne{
+    font-size: 10px;
+    margin: 3px;
+    
+
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    margin: 3px;
+}
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+}
+.header__productCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav{
+    padding-top: 50px;
+}
+.signin_out{
+    display: flex;
+    flex-direction: row;
+    
+}
+.search_button{
+    
+
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    background-color:black;
+    border-radius: 10px;
+    border:red;
+    margin-left: 3px;
+
+    
+}
+.lap{
+    color:rgb(230, 63, 22);
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    
+}

@@ -1,0 +1,8 @@
+.img_m{
+    width: 100%;
+    max-width: 100%;
+}
+.Scroller_m{
+    display: flex;
+    flex-wrap: wrap;
+}

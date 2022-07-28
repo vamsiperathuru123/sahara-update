@@ -1,0 +1,56 @@
+
+.all_sites{
+    margin-top: -10px;
+}
+.slider_all{
+    height: 200px;
+    padding-left: 5px;
+    background-color:black;
+    margin-bottom: 30px;
+    
+    
+}
+    
+.card_all{
+    height: 150px;
+    width: 150px;
+    padding-left:10px;
+    padding-right:10px;
+    justify-content: space-between;
+ 
+}
+.site{
+    height: 150px;
+    width: 150px;
+}
+.card-img_all{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+   
+  }
+  .card-btn_all{
+      color:white;
+      margin: 5px;
+      cursor: pointer;
+    
+    
+
+ }
+ .card-btn_n{
+     width: fit-content;
+     margin: 5px;
+     background-color: black;
+     color:white;
+     border: 1px solid #fff;;
+     cursor: pointer;
+     border-radius: 4px;
+
+ }
+.cards_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}

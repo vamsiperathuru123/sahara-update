@@ -1,0 +1,70 @@
+.Gifts{
+    background-color:black;
+    overflow:wrap;
+    
+    align-items: center;
+    z-index: 100;
+}
+.gifts_btn{
+    background-color:red;
+    border: 1px solid;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    color:black;
+    border-color:solid black;
+}
+.login__container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid white;
+    background-color:black;
+    border-radius: 5px;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.navlinks_g{
+    background-color:black;
+    color: white;
+
+    
+
+    
+
+}
+.navlinks__outer_g{
+    width: 77%;
+    
+    padding:6px;
+    margin-right:30px ;
+
+    
+
+}
+.navlinks__outer_g a{
+    color:whitesmoke ;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+    
+    margin-right: 10px;
+    border: 1px solid black;
+
+}
+.navlinks__outer_g a:hover{
+    border: 1px solid #fff;
+    border-radius: 4px;
+
+}
+.navlinks__inner_g{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
